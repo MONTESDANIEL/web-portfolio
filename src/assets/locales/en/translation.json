@@ -1,0 +1,38 @@
+{
+    "general": {
+        "title": "FullStack Developer",
+        "projectsTitle": "Featured Projects",
+        "contactMe": "Contact me",
+        "followMe": "Follow me"
+    },
+    "contact": {
+        "email": "Email",
+        "phone": "Phone",
+        "resume": "Resume",
+        "downloadResume": "Download Resume"
+    },
+    "about": {
+        "workTitle": "Work",
+        "aboutTitle": "about",
+        "hey": "Hey!",
+        "i'm": "I'm",
+        "aboutMe": "About me",
+        "whoAmI": "Who Am I?",
+        "paragraphWhoAmI": "I have always been a curious individual, eager to understand how things work. When I discovered programming, I found a space where I could experiment, build, and continuously improve. I enjoy staying in motion, learning, and evolving—not just as a developer but also in how I approach challenges and collaborate with others to take ideas beyond the drawing board.",
+        "whatILove": "What I Love",
+        "paragraphWhatILove": "What I enjoy most about development is the ability to transform an idea into something functional and impactful. I am motivated by tackling challenges, analyzing problems, and finding solutions that truly make a difference. Beyond the code, I care deeply about how every decision impacts scalability, performance, and user experience. I love experimenting with new technologies and methodologies to enhance the way I build software, always striving to learn and refine my craft."
+    },
+    "techStack": {
+        "myTechStack": "My technologies stack",
+        "backend": "Backend",
+        "frontend": "Frontend",
+        "dataBases": "Databases",
+        "apisAndMicroservices": "APIs and Microservices"
+    },
+    "projects": {
+        "myfinance": {
+            "title": "MyFinance",
+            "description": "MyFinance is a personal finance management app I built to help users track expenses, set budgets, and visualize their financial health with interactive charts.\nThis project demonstrates my ability to create practical, real-world solutions with modern tools and a focus on user experience."
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "general": {
+        "title": "Desarrollador FullStack",
+        "projectsTitle": "Proyectos destacados",
+        "contactMe": "Contáctame",
+        "followMe": "Sígueme"
+    },
+    "contact": {
+        "email": "Correo electrónico",
+        "phone": "Teléfono",
+        "resume": "Hoja de vida",
+        "downloadResume": "Descargar Hoja de vida"
+    },
+    "about": {
+        "workTitle": "Mi trabajo",
+        "aboutTitle": "Sobre mí",
+        "hey": "¡Hola!",
+        "i'm": "Soy",
+        "aboutMe": "Sobre mí",
+        "whoAmI": "¿Quién soy?",
+        "paragraphWhoAmI": "Siempre he sido alguien curioso, con ganas de entender cómo funcionan las cosas. Desde que descubrí la programación, encontré en ella un espacio donde podía experimentar, construir y mejorar constantemente. Me gusta mantenerme en movimiento, aprendiendo y evolucionando, no solo como desarrollador, sino también en la forma en que afronto los problemas y colaboro con otros para llevar las ideas más allá del papel.",
+        "whatILove": "Lo que me apasiona",
+        "paragraphWhatILove": "Lo que más disfruto del desarrollo la capacidad de transformar una idea en algo funcional y útil. Me motiva enfrentar desafíos, analizar problemas y encontrar soluciones que realmente marquen la diferencia. Más allá del código, me interesa cómo cada decisión impacta la escalabilidad, el rendimiento y la experiencia del usuario. Me gusta experimentar con nuevas tecnologías y enfoques para mejorar la forma en que construyo software, siempre buscando aprender y perfeccionar mi trabajo."
+    },
+    "techStack": {
+        "myTechStack": "Tecnologías favoritas",
+        "backend": "Backend",
+        "frontend": "Frontend",
+        "dataBases": "Bases de datos",
+        "apisAndMicroservices": "APIs y Microservicios"
+    },
+    "projects": {
+        "myfinance": {
+            "title": "MyFinance",
+            "description": "MyFinance es una aplicación de gestión financiera personal que desarrollé para ayudar a los usuarios a rastrear gastos, establecer presupuestos y visualizar su salud financiera con gráficos interactivos. Este proyecto demuestra mi capacidad para crear soluciones prácticas y reales utilizando herramientas modernas y con un enfoque en la experiencia del usuario."
+        }
+    }
+}

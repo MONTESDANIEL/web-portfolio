@@ -1,0 +1,296 @@
+/* Variables generales para el proyecto */
+
+[data-bs-theme="light"] {
+  --bg-root-color: #e5e5e5;
+  --bg-details-color: hsl(0, 0%, 19%, 0.12);
+  --primary-color: #303030;
+  --secondary-color: #b56a45;
+  --subtitle-primary-color: #5a5a5a;
+  --subtitle-secondary-color: #b56a45;
+  --paragraph-primary-color: #6c757d;
+  --paragraph-secondary-color: #333333;
+  --bg-img-container-color: #e5e5e5;
+  --bg-navbar-blur-color: rgba(200, 200, 200, 0.8);
+}
+
+[data-bs-theme="dark"] {
+  --bg-root-color: #282828;
+  --bg-details-color: hsla(0, 0%, 80%, 0.06);
+  --primary-color: #ffffff;
+  --secondary-color: #df8f67;
+  --subtitle-primary-color: #cccccc;
+  --subtitle-secondary-color: #ffae86;
+  --paragraph-primary-color: #aaaaaa;
+  --paragraph-secondary-color: #eeeeee;
+  --bg-img-container-color: #333333;
+  --bg-navbar-blur-color: rgba(50, 50, 50, 0.8);
+}
+
+/* Estilos de fondo */
+
+[data-bs-theme="light"],
+[data-bs-theme="dark"] {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.custom-bg {
+  background: radial-gradient(var(--bg-details-color) 1px, transparent 1px);
+  background-size: 16px 16px;
+  background-color: var(--bg-root-color);
+  height: 100vh;
+  width: 100%;
+}
+
+/* Estilos para titulos */
+
+.title-primary {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: clamp(3rem, 8vw, 100px);
+  color: var(--primary-color);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+.title-secondary {
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: clamp(3rem, 8vw, 100px);
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+
+/* Estilos para subtítulos */
+
+.subtitle-primary {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: var(--subtitle-primary-color);
+}
+
+.subtitle-secondary {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: var(--subtitle-secondary-color);
+}
+
+/* Estilos para párrafos */
+
+.paragraph-primary {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  font-weight: 300;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  color: var(--paragraph-primary-color);
+}
+
+.paragraph-secondary {
+  font-family: "Inter", sans-serif;
+  font-size: clamp(0.9rem, 2.5vw, 1.2rem);
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: var(--paragraph-secondary-color);
+}
+
+/* Estilos para la NavBar */
+
+.navbar-blur {
+  transition: background-color 0.5s ease, backdrop-filter 0.5s ease;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.3rem 5%;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: var(--bg-navbar-blur-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.btn-navbar {
+  all: unset;
+  background-color: transparent !important;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.btn-navbar:hover,
+.btn-navbar.active {
+  color: var(--secondary-color);
+  border: none;
+  box-shadow: none;
+}
+
+/* Estilo para las redes sociales flotantes */
+
+.social-icons {
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-link:hover {
+  color: var(--secondary-color);
+  transform: scale(1.1);
+}
+
+.icon-content {
+  display: flex;
+  align-items: center;
+  min-height: 30px;
+}
+
+.icon-link i {
+  font-size: 1.5rem;
+}
+
+.icon-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  white-space: nowrap;
+}
+
+.icon-link:hover .icon-text {
+  opacity: 1;
+  transform: translateX(-10px);
+}
+
+/* Estilo para la imagen de proyecto */
+
+.image-container-project {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--bg-details-color);
+  border-radius: 10px;
+  background-color: var(--bg-img-container-color);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.image-project {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.image-container-project:hover .image-project {
+  transform: scale(1.2);
+}
+
+/* Estilo para la imagen de about */
+
+.image-container-about {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* Estilo boton de bajar */
+
+.scroll-down-btn {
+  background-color: transparent;
+  border: none;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.scroll-down-btn i {
+  font-size: 24px;
+  transition: transform 0.3s ease;
+  display: block;
+}
+
+.scroll-down-btn:hover i {
+  transform: scale(1.5);
+  color: #b17457;
+}
+
+.bg-footer {
+  background-color: var(--bg-root-color);
+}
+
+.custom-card {
+  background: var(--bg-img-container-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive movil */
+
+@media (max-width: 767px) {
+  .social-icons {
+    display: none;
+  }
+}
+
+@media (max-height: 414px) {
+
+  .scroll-down-btn,
+  .social-icons {
+    display: none;
+  }
+}
+
+@media (max-height: 414px) {
+  #home {
+    margin-top: 80px;
+    height: 50vh;
+    padding: 2rem 0;
+  }
+
+  #aboutMe {
+    margin-top: 80px;
+  }
+
+  #aboutImage,
+  #aboutText {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
