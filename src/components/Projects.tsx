@@ -1,5 +1,5 @@
 const Projects = ({ img = "", alt = "", title = "", description = "" }) => {
-    const basePath = "/src/assets/images/projects/";
+    const basePath = "@assets/images/projects/";
 
     return (
         <div className="container my-5">

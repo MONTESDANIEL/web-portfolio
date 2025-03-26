@@ -17,7 +17,7 @@ const About = () => {
 
                     <div id="aboutImage" className="col-8 col-lg-5 order-1 order-lg-2 mb-lg-0 mb-5">
                         <img
-                            src="/src/assets/images/life.gif"
+                            src="@assets/images/life.gif"
                             alt="Profile"
                             className="img-fluid rounded-circle"
                         />
