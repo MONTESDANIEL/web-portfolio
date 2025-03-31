@@ -20,7 +20,6 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    debug: true,
     resources: {
       en: { translation: enTranslation },
       es: { translation: esTranslation },
@@ -30,20 +29,6 @@ i18n
       escapeValue: false,
     },
   })
-  .then(() => {
-    console.log("i18n initialized successfully.");
-    console.log("Current Language:", i18n.language);
-  })
-  .catch((error) => {
-    console.error("Error initializing i18n:", error);
-  });
-
-i18n.on("languageChanged", (lng) => {
-  console.log(`Language changed to: ${lng}`);
-  console.log(
-    "Current Translations:",
-    i18n.getResourceBundle(lng, "translation")
-  );
-});
+  .catch((error) => console.error("Error initializing i18n:", error));
 
 export default i18n;

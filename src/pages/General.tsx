@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import Footer from "../components/Footer";
-import NavBar from "../components/Navbar";
+import Footer from "@components/Footer";
+import { HomeNavBar } from "@components/Navbar";
 import About from "./About";
 import Work from "./Work";
 import Aos from "aos";
@@ -30,7 +30,7 @@ const General = () => {
 
     return (
         <>
-            <NavBar />
+            <HomeNavBar />
 
             <main className="container flex-grow-1 tab-content" id="pills-tabContent">
                 <section

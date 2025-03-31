@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import Projects from "../components/Projects";
-import ScrollDownButton from "../components/ScrollDownButton";
+import Projects from "@components/Projects";
+import ScrollDownButton from "@components/ScrollDownButton";
 
 const Work = () => {
 
@@ -35,7 +35,7 @@ const Work = () => {
               alt={"Image of MyFinance project"}
               title={t("projects.myfinance.title")}
               description={t("projects.myfinance.description")}
-              data-aos="flip-left"
+              redirectTo="myfinance"
             />
           </div>
         </div>

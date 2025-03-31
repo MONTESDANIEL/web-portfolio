@@ -2,7 +2,7 @@ import ThemeBtn from "@components/ThemeBtn";
 import { useTranslation } from "react-i18next";
 import LanguageBtn from "./LanguajeBtn";
 
-const NavBar = () => {
+export const HomeNavBar = () => {
 
     const { t } = useTranslation();
 
@@ -47,4 +47,14 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export const SimpleNavBar = () => {
+    return (
+        <nav className="navbar-blur">
+            <div className="d-flex justify-content-center align-items-center">
+                <ThemeBtn />
+                <div className="vr mx-2"></div>
+                <LanguageBtn />
+            </div>
+        </nav>
+    );
+};
