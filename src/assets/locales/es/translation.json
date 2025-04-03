@@ -3,7 +3,8 @@
         "title": "Desarrollador FullStack",
         "projectsTitle": "Proyectos destacados",
         "contactMe": "Contáctame",
-        "followMe": "Sígueme"
+        "followMe": "Sígueme",
+        "viewOnGitHub": "Ver en GitHub"
     },
     "contact": {
         "email": "Correo electrónico",
@@ -32,7 +33,66 @@
     "projects": {
         "myfinance": {
             "title": "MyFinance",
-            "description": "MyFinance es una aplicación de gestión financiera personal que desarrollé para ayudar a los usuarios a rastrear gastos, establecer presupuestos y visualizar su salud financiera con gráficos interactivos. Este proyecto demuestra mi capacidad para crear soluciones prácticas y reales utilizando herramientas modernas y con un enfoque en la experiencia del usuario."
+            "description": "MyFinance es una aplicación de gestión financiera personal que desarrollé para ayudar a los usuarios a rastrear gastos, establecer presupuestos y visualizar su salud financiera con gráficos interactivos. Este proyecto demuestra mi capacidad para crear soluciones prácticas y reales utilizando herramientas modernas y con un enfoque en la experiencia del usuario.",
+            "features": {
+                "title": "Caracteristicas principales",
+                "welcomeInterface": {
+                    "title": "Interfaz de Bienvenida",
+                    "features": [
+                        "Pantalla inicial con textos e imágenes que introducen la aplicación al usuario."
+                    ]
+                },
+                "authenticationAndSecurity": {
+                    "title": "Autenticación y Seguridad",
+                    "features": [
+                        "El sistema permite el registro de nuevos usuarios, inicio de sesión y recuperación de contraseñas mediante correo electrónico.",
+                        "Para la autenticación, se utiliza un sistema de tokens (JWT). Al iniciar sesión con credenciales correctas, se genera un token con una duración de dos horas, el cual se invalida automáticamente al cerrar la sesión.",
+                        "Las contraseñas no se almacenan en texto plano; en su lugar, se utilizan métodos de cifrado para garantizar su seguridad."
+                    ]
+                },
+                "financialSummary": {
+                    "title": "Resumen Financiero",
+                    "features": [
+                        "Panel interactivo con gráficos detallados.",
+                        "Resumen del mes con ingresos, egresos, ahorros y dinero disponible.",
+                        "Información del año organizada por mes, bimestre, trimestre o semestre.",
+                        "Seguimiento de ahorros mes a mes.",
+                        "Detalles de cada movimiento: Título, cantidad, etiqueta, meta asignada y otros detalles clave."
+                    ]
+                },
+                "financialManagement": {
+                    "title": "Gestión Financiera",
+                    "features": [
+                        "Registro, visualización, edición y eliminación de movimientos financieros.",
+                        "Clasificación de movimientos como ingreso, egreso o ahorro.",
+                        "Uso de etiquetas personalizadas para una mejor organización.",
+                        "Enlace de movimientos a metas financieras.",
+                        "Calendario interactivo para programar eventos financieros importantes.",
+                        "Visualización de metas establecidas y eventos recurrentes (ingresos y gastos frecuentes).",
+                        "Creación y seguimiento de objetivos financieros personales, como ahorro o control de gastos."
+                    ]
+                },
+                "reports": {
+                    "title": "Reportes",
+                    "features": [
+                        "Generación de documentos en PDF con los datos solicitados por el usuario para análisis o respaldo."
+                    ]
+                },
+                "userProfile": {
+                    "title": "Perfil de Usuario",
+                    "features": [
+                        "Gestión de datos personales con opciones para visualizar, editar y eliminar información."
+                    ]
+                },
+                "customSettings": {
+                    "title": "Configuración Personalizada",
+                    "features": [
+                        "Ajuste de colores en la interfaz para mejorar la experiencia del usuario.",
+                        "Personalización de etiquetas para clasificar movimientos financieros."
+                    ]
+                }
+            },
+            "technologiesUsed": "Tecnologias utilizadas"
         }
     }
 }

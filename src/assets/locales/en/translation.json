@@ -3,7 +3,8 @@
         "title": "FullStack Developer",
         "projectsTitle": "Featured Projects",
         "contactMe": "Contact me",
-        "followMe": "Follow me"
+        "followMe": "Follow me",
+        "viewOnGitHub": "View on GitHub"
     },
     "contact": {
         "email": "Email",
@@ -13,7 +14,7 @@
     },
     "about": {
         "workTitle": "Work",
-        "aboutTitle": "about",
+        "aboutTitle": "About",
         "hey": "Hey!",
         "i'm": "I'm",
         "aboutMe": "About me",
@@ -23,7 +24,7 @@
         "paragraphWhatILove": "What I enjoy most about development is the ability to transform an idea into something functional and impactful. I am motivated by tackling challenges, analyzing problems, and finding solutions that truly make a difference. Beyond the code, I care deeply about how every decision impacts scalability, performance, and user experience. I love experimenting with new technologies and methodologies to enhance the way I build software, always striving to learn and refine my craft."
     },
     "techStack": {
-        "myTechStack": "My technologies stack",
+        "myTechStack": "My technology stack",
         "backend": "Backend",
         "frontend": "Frontend",
         "dataBases": "Databases",
@@ -32,7 +33,66 @@
     "projects": {
         "myfinance": {
             "title": "MyFinance",
-            "description": "MyFinance is a personal finance management app I built to help users track expenses, set budgets, and visualize their financial health with interactive charts.\nThis project demonstrates my ability to create practical, real-world solutions with modern tools and a focus on user experience."
+            "description": "MyFinance is a personal finance management app I built to help users track expenses, set budgets, and visualize their financial health with interactive charts. This project demonstrates my ability to create practical, real-world solutions with modern tools and a focus on user experience.",
+            "features": {
+                "title": "Main Features",
+                "welcomeInterface": {
+                    "title": "Welcome Interface",
+                    "features": [
+                        "Initial screen with texts and images introducing the application to the user."
+                    ]
+                },
+                "authenticationAndSecurity": {
+                    "title": "Authentication and Security",
+                    "features": [
+                        "The system allows new users to register, log in, and recover passwords via email.",
+                        "For authentication, a token-based system (JWT) is used. When logging in with correct credentials, a token is generated with a two-hour validity, which is automatically invalidated upon logout.",
+                        "Passwords are not stored in plain text; instead, encryption methods are used to ensure security."
+                    ]
+                },
+                "financialSummary": {
+                    "title": "Financial Summary",
+                    "features": [
+                        "Interactive dashboard with detailed charts.",
+                        "Monthly summary including income, expenses, savings, and available balance.",
+                        "Yearly information organized by month, bimonthly, quarterly, or semi-annually.",
+                        "Month-to-month savings tracking.",
+                        "Detailed breakdown of each transaction: title, amount, category, assigned goal, and other key details."
+                    ]
+                },
+                "financialManagement": {
+                    "title": "Financial Management",
+                    "features": [
+                        "Register, view, edit, and delete financial transactions.",
+                        "Classify transactions as income, expense, or savings.",
+                        "Use custom labels for better organization.",
+                        "Link transactions to financial goals.",
+                        "Interactive calendar to schedule important financial events.",
+                        "View established goals and recurring events (frequent income and expenses).",
+                        "Create and track personal financial goals, such as saving or expense control."
+                    ]
+                },
+                "reports": {
+                    "title": "Reports",
+                    "features": [
+                        "Generate PDF documents with user-selected data for analysis or backup."
+                    ]
+                },
+                "userProfile": {
+                    "title": "User Profile",
+                    "features": [
+                        "Manage personal data with options to view, edit, and delete information."
+                    ]
+                },
+                "customSettings": {
+                    "title": "Custom Settings",
+                    "features": [
+                        "Adjust interface colors to enhance user experience.",
+                        "Customize labels to categorize financial transactions."
+                    ]
+                }
+            },
+            "technologiesUsed": "Technologies Used"
         }
     }
 }
