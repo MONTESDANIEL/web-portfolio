@@ -54,7 +54,7 @@ const SocialNetworks = () => {
                 </div>
             </a>
 
-            <a href="/HVFull.pdf" download="Daniel_Amaya_Resume.pdf" className="icon-link">
+            <a href="/HvFullStack.pdf" download="Daniel_Amaya_Resume.pdf" className="icon-link">
                 <div className="icon-content">
                     <span className="icon-text">{t("contact.resume")}</span>
                     <i className="bi bi-file-earmark-pdf-fill"></i>
