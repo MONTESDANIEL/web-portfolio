@@ -14,7 +14,7 @@ const Footer = () => {
                             <h5 className="subtitle-secondary text-center">{t("general.contactMe")}</h5>
                             <p>{t("contact.email")}: <a href="mailto:danielamayamontes8@gmail.com" className="paragraph-secondary ms-2">danielamayamontes8@gmail.com</a></p>
                             <p>{t("contact.phone")}: <a href="tel:+3054171043" className="paragraph-secondary ms-2">+57 305 417 1043</a></p>
-                            <p>{t("contact.resume")}: <a href="/HVFull.pdf" download="Daniel_Amaya_Resume.pdf" className="paragraph-secondary ms-2">{t("contact.downloadResume")}</a></p>
+                            <p>{t("contact.resume")}: <a href="/HvFullStack.pdf" download="Daniel_Amaya_Resume.pdf" className="paragraph-secondary ms-2">{t("contact.downloadResume")}</a></p>
                         </div>
                     </div>
                 </div>
